@@ -1,0 +1,157 @@
+﻿<!-- base HTML5 template -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Components Project</title>
+<style>
+body {
+    box-sizing: border-box;
+}
+.container {
+border: 1px solid black;
+box-shadow: 0px 3px 9px grey, 0px -3px 9px grey;
+width: 100%;
+display: flex;
+align-items: start;
+justify-content: space-between;
+
+}
+.container2 {
+border: 1px solid black;
+box-shadow: 0px 3px 9px grey, 0px -3px 9px grey;
+width: 100%;
+display: flex;
+align-items: end;
+justify-content: space-around;
+
+}
+
+a {
+color: black;
+text-decoration: none;
+margin: 10px;
+padding-top: 5px;
+font-size: 1.2rem;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.sidebar {
+    width: 22%;
+background-image: url("watercolor-arte.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-right: 1px solid black;
+  height: 600px;
+  padding: 25px;
+  overflow: auto;
+}
+.main {
+    width: 75%;
+    background: white;
+    height: 600px;
+    padding: 25px;
+}
+
+.todo {
+display: none;
+padding: 25px;
+width: 550px;
+text-align: left;
+
+}
+
+ul {
+    padding:10px;
+    list-style-type: "→";
+}
+
+summary h2 {
+    display: inline-block;
+    border-bottom: 1px solid grey;
+}
+
+summary h2:hover {
+    cursor: pointer;
+    color: red;
+}
+</style>
+
+</head>
+
+<body>
+<center>
+   <h1> Web Components Project </h1>
+        July 2022 - A. Demontis for<a href="http://www.vivacitydesign.ga/" target="_blank">Vivacity Design Web Agency</a>
+        <p></p>
+</center>
+<div class="container">
+<div class="sidebar">
+    <details>
+        <summary><h2>Buttons</h2></summary>
+        <a href="likebutton/likebutton.html" target="main"> Like Button</a><br>
+        <a href="dislikebutton/dislikebutton.html" target="main"> Dislike Button</a><br>
+        <a href="downloadbutton/downloadbutton.html" target="main"> Download Button</a><br>
+        <a href="uploadbutton/uploadbutton.html" target="main"> Upload Button</a><br>
+        <a href="sharebutton/sharebutton.html" target="main"> Share Button</a><br>
+        <a href="fancybutton/fancybutton.html" target="main"> Fancy Gradient Button</a><br>
+    </details>
+    <br>
+    <details>
+        <summary><h2>Cards & Badges</h2></summary>
+        <a href="usercard/usercard.html" target="main"> User Card</a> (vertical)<br>
+        <a href="userbadge/userbadge.html" target="main"> User Badge</a> (horizontal)<br>
+        <a href="userpill/userpill.html" target="main"> User Pill</a> (round)<br>
+        <a href="productcard/productcard.html" target="main"> Product Card</a> (vertical)<br>
+        <a href="imagecard/imagecard.html" target="main"> Background-Image Card</a> (vertical)<br>
+    </details>
+    <br>
+    <details>
+        <summary><h2>Miscellaneous</h2></summary>
+        <a href="starrating/starrating.html" target="main"> Star Rating</a><br>
+        <a href="runningdiv/runningdiv.html" target="main"> Running Div</a><br>
+        <a href="animatedquote/animatedquote.html" target="main"> Animated Quote</a><br>
+        
+    </details>
+    <br>
+    <h3>Documentation:</h3>
+    <ul>
+        <li><a href="web_components_instructions.pdf" target="_blank">Web Components Instructions</a><br> (detailed slides in pdf)</li>
+        <li><a href="dhtml_di_livello_superiore.pdf" target="_blank">DHTML di livello superiore</a><br> espandere HTML con i Web Components<br> (Articolo in pdf)</li>
+
+    </ul>
+</div>
+<div class="main">
+    <center>
+    <iframe name="main" width=95% height=550 src="main.html" frameBorder="0">
+
+    </iframe>
+</center>
+</div>
+
+</div>
+<p></p><p></p>
+<center>
+    <div class="container2">
+<div class="todo">
+    <h3>Da Fare:</h3>
+    <ul>
+        <li>Aggiungere i parametri WIDTH, ID e CLASS a tutti i tags</li>
+        <li>Aggiungere il parametro AVATAR al tag ANIMATED-QUOTE</li>
+        <li>Sperimentare con i Boolean</li>
+        <li><s>Sperimentare con i cicli</s></li>
+        <li>Organizzare questo indice in categorie</li>
+    </ul>
+</div>
+<br>
+</div>
+</center>
+
+</body>
+</html>

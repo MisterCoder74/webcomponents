@@ -1,0 +1,14 @@
+.fancybutton {
+  line-height: 24px;
+  padding: 8px 10px;
+border-radius: 4px;
+   border: 1px solid transparent;
+background: linear-gradient(0deg, var(--gradient-from) 0%, var(--gradient-to) 100%);
+font-size: 1rem;
+}
+
+.fancybutton:hover {
+  color: var(--hv-color);
+  background: transparent;
+   border: 1px solid var(--bd-color);
+}

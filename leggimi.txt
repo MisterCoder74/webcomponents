@@ -1,0 +1,11 @@
+DA FARE:
+New Elements
+<social-button type="twitter"><a href="...">Twitter</a></social-button>
+
+
+Changes
+Add WIDTH, ID and CLASS parameters to all tags
+Add AVATAR parameter to ANIMATED-QUOTE tag
+Experiment with Boolean parameters
+
+master project is in: G:\WEB\esempi x tutorial\TEST VARI\web components

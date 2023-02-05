@@ -1,0 +1,20 @@
+.dislikebutton {
+display: inline-block;
+word-wrap: normal;
+  background-color: var(--bg-color);
+margin: 4px;
+padding: 2px 5px;
+border-radius: 10px;
+border: 1px solid black;
+font-size: .9rem;
+}
+
+
+.dislikebutton img {
+margin-right: 2px;
+}
+
+.dislikebutton:hover {
+  background-color: var(--hv-color);
+cursor: pointer;
+}
