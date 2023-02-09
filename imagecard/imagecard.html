@@ -6,12 +6,13 @@
 .instructions {
 margin-top: 30px;
 border: 1px solid black;
+padding: 10px 15px;
 }
 </style>
 </head>
 <body>
 <h1>IMAGE-CARD ELEMENT</h1>
-<image-card title="Lorem Ipsum" image="clouds.jpg" bordercolor="grey" textcolor="black" align="justify">
+<image-card title="Lorem Ipsum" image="clouds.jpg" bordercolor="grey" textcolor="black" textalign="justify">
 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. <br>
 Lorsquem sicut vobis erat!<br>
 Sed do eiusmod tempor incidunt ut labore et dolore magna aliqua
@@ -19,14 +20,14 @@ Sed do eiusmod tempor incidunt ut labore et dolore magna aliqua
 <div class="instructions">
 SYNTAX:<br>
 <pre>&lt;image-card title="(text)" image="(path)" bordercolor="(color code or name)" textcolor="(color code or name)"
-align="(justification)"&gt;
+textalign="(justification)"&gt;
 (text here)
 &lt;/image-card&gt;
-<pre>
+</pre>
 The element can contain also HTML content between opening and closing tags.
 <br>
-The <b>ALIGN</b> attribute can use the following values:<i> left, right, center, justify</i>
-<img src="ic-instructions.jpg">
+The <b>TEXTALIGN</b> attribute can use the following values:<i> left, right, center, justify</i>
+
 </div>
 
 <script src="imagecard.js"></script>
