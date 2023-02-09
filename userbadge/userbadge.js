@@ -3,7 +3,7 @@ constructor() {
 super();
 
 var hcustomContent = this.innerHTML;
-this.innerHTML = `<div class=userbadge><h1> ${this.getAttribute('heading')} </h1><div class=box><img src= ${this.getAttribute('avatar')} /><p>` + hcustomContent + `</p></div></div>`;
+this.innerHTML = `<div class=userbadge><h1> ${this.getAttribute('title')} </h1><div class=box><img src= ${this.getAttribute('image')} /><p>` + hcustomContent + `</p></div></div>`;
 }
 }
 

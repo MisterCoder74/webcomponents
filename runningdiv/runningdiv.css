@@ -3,11 +3,14 @@
 display: inline-block;
 padding: 10px 15px 10px 15px;
     background-color: var(--bg-color);
-    color: var(--ft-color);
+    color: var(--tx-color);
 text-align: center;
 border: 1px solid black;
 border-radius: 10px;
 box-shadow: 0px 4px 10px black;
 transition: all 0.5s ease;
+max-width: 250px;
 }
+
+
 

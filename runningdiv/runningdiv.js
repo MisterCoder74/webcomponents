@@ -4,7 +4,7 @@ super();
 
 
 var hcustomContent = this.innerHTML;
-this.innerHTML = `<div class=runningdiv style=\"--bg-color: ${this.getAttribute('bgcolor')}; --ft-color: ${this.getAttribute('ftcolor')};\" onmouseover=moveaway()>`  + hcustomContent + `</div>`;
+this.innerHTML = `<div class=runningdiv style=\"--bg-color: ${this.getAttribute('bgcolor')}; --tx-color: ${this.getAttribute('textcolor')};\" onmouseover=moveaway()>`  + hcustomContent + `</div>`;
 }
 }
 

@@ -7,6 +7,7 @@ padding: 2px 5px;
 border-radius: 10px;
 border: 1px solid black;
 font-size: .9rem;
+color: var(--tx-color);
 }
 
 
