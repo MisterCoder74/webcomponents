@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="skewnavskewlink.css"> 
+<style>
+.instructions {
+margin-top: 30px;
+border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1>SKEW-NAV & SKEW-LINK ELEMENTS</h1>
+<skew-nav bgcolor="black" textcolor="green" align="center">
+  <skew-link url="#" textcolor="white" hovercolor="black" skewcolor="red">Link 1</skew-link>
+  <skew-link url="#" textcolor="white" hovercolor="black" skewcolor="red">Link 1</skew-link>
+  <skew-link url="#" textcolor="white" hovercolor="black" skewcolor="red">Link 1</skew-link>
+</skew-nav>
+
+<p></p>
+<div class="instructions">
+SYNTAX:<br>
+<pre>&lt;skew-nav bgcolor="(color code or name)" textcolor="(color code or name)"  align="(justification)"&gt;
+ &lt;skew-link url="#" textcolor="(color code or name)" hovercolor="(color code or name)" skewcolor="(color code or name)"&gt;
+ (text link here) &lt;/skew-link&gt;
+&lt;/skew-nav&gt;
+</pre>
+<br>
+The element can contain also HTML content between opening and closing tags.<br>
+WARNING: For Navbar links it is mandatory to use the SKEW LINK component instead of A.
+<br>
+The <b>ALIGN</b> attribute can use the following values:<i> start, center, end</i>
+<br><br>
+<img src="skl-instructions.jpg">
+</div>
+
+<script src="skewnavskewlink.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.hnav {
+  display: flex;
+  justify-content: var(--justify);
+align-items: center;
+  background-color: var(--bg-color);
+  color: var(--tx-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 100%;
+padding: 8px 10px;
+height: 50px;
+font-size: 1.2rem;
+}
+.hnav:hover {
+  color: var(--hv-color)
+transition: all 1s ease-out;
+}
+.hnav a {
+color: var(--tx-color);
+margin-right: 2.5rem;
+font-size: 1.3rem;
+text-decoration: none;
+transition: all 1s ease-out;
+}
+.hnav a:hover {
+color: var(--hv-color);
+text-decoration: underline;
+}

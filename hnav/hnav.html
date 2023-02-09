@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="hnav.css"> 
+<style>
+.instructions {
+margin-top: 30px;
+border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1>H-NAV ELEMENT</h1>
+<h-nav image="" bgcolor="black" textcolor="green" hovercolor="yellow" align="center">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+</h-nav>
+<p></p>
+<h-nav image="clouds.jpg" bgcolor="black" textcolor="black" hovercolor="grey" align="end">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+</h-nav>
+<p></p>
+<div class="instructions">
+SYNTAX:<br>
+<pre>&lt;h-nav image="(path)" bgcolor="(color code or name)" textcolor="(color code or name)" hovercolor="(color code or name)"
+ align="(justification)"&gt;
+(text here)
+&lt;/h-nav&gt;
+<pre>
+The element can contain also HTML content between opening and closing tags.<br>
+A Typical example: links of the navbar are placed as tag content (see code).
+<br>
+The <b>ALIGN</b> attribute can use the following values:<i> start, center, end</i>
+<img src="hn-instructions.jpg">
+</div>
+
+<script src="hnav.js"></script>
+</body>
+</html>
